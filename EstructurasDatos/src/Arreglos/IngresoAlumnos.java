@@ -16,7 +16,10 @@ public class IngresoAlumnos {
     public static void main(String[] args) {
         // TODO code application logic here
         //Definir un arreglo de Strings 10
-        //Usand
+        //Usando for solicita el ingreso de 10
+        //nombres de alumnos
+        //por teclado
+        //imprimir usando for 
     }
     
 }
