@@ -10,6 +10,5 @@ package Collecciones;
  */
 public class EjemploBAsico {
     public static void main(String[] args) {
-        ArrayList<int> edades=new ArrayList();
-    }
+     }
 }

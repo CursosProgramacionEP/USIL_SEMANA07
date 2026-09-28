@@ -28,7 +28,7 @@ public class EjemplosBase {
         //Arreglo es estatico: debo declarar cuantos elementos
         // tiene desde el inicio 
         
-        int edades[]=new int[100]; //con new
+        int edades[]=new int[10]; //con new
         String nombres[]={"Efrain","Lucia","Patricia","Carlos"};// con el paso de valores
         
         
@@ -40,27 +40,25 @@ public class EjemplosBase {
         
         //Asignacion de datos se usa FOR
         // automaticamente
-        for(int i=0;i<100;i++){
+        for(int i=0;i<10;i++){
             edades[i]=(int)(Math.random()*100+1);
         }
         //por teclado
-        for(int i=0;i<100;i++){
+        for(int i=0;i<10;i++){
             System.out.println("Ingresa el valor numero "+i);
             edades[i]=lector.nextInt();
         }
-        
-        
-        
-        
-        
-        
-        
-        
+
         //Lectura de datos    
-        System.out.println(edades[1]);
-        System.out.println(edades[2]);
-        System.out.println(edades[9]);
-        System.out.println(edades[10]);//Error por que no esta dentro de los indices 0 al 9
+        //System.out.println(edades[1]);
+        //System.out.println(edades[2]);
+        //System.out.println(edades[9]);
+        //System.out.println(edades[10]);//Error por que no esta dentro de los indices 0 al 9
+        
+        for(int i=0;i<edades.length;i++){
+            System.out.print(edades[i]+" ");
+        }
+        System.out.println("");
         
         
         
